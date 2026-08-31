@@ -1,7 +1,6 @@
-baseURL = 'https://dannycab.github.io/pcubed/'
+baseURL = 'https://dannycaballero.info/pcubed/'
 locale = 'en-us'
 title = 'Projects & Practices in Physics'
-relativeURLs = true
 
 [params]
   subtitle = "Course Notes"
