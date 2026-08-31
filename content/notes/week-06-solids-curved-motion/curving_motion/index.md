@@ -134,7 +134,7 @@ In this video a bowling ball is forced to move in a circle by being struck with 
 
 ## Examples
 
-- [Video Example: Change in momentum (parallel and perpendicular) of an orbit](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:videoswk6)
+- [Video Example: Change in momentum (parallel and perpendicular) of an orbit](/pcubed/examples/videoswk6/)
 
 ------------------------------------------------------------------------
 

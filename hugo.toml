@@ -20,3 +20,8 @@ title = 'Projects & Practices in Physics'
   name = "Notes"
   url = "/notes/"
   weight = 1
+
+[[menu.main]]
+  name = "Examples"
+  url = "/examples/"
+  weight = 2

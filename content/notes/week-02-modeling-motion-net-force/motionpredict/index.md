@@ -46,4 +46,4 @@ This might seem trivial, but there is a critical implication. If the force in an
 
 ## Examples
 
-[Predicting the final momentum & velocity using the Momentum Principle](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:finalp)
+[Predicting the final momentum & velocity using the Momentum Principle](/pcubed/examples/finalp/)

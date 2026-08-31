@@ -138,7 +138,7 @@ Here, you have connected a macroscopic measurement ($Y$) to a microscopic model 
 
 ### Examples
 
-- [Video Example: Chains and Bonds of a Copper Wire](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:videoswk4)
+- [Video Example: Chains and Bonds of a Copper Wire](/pcubed/examples/videoswk4/)
 
 ------------------------------------------------------------------------
 

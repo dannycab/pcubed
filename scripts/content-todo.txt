@@ -38,3 +38,47 @@ week-12-14-collisions-rotational-motion/static_eq: 1 image(s) missing alt text
 week-12-14-collisions-rotational-motion/torquediagram: 2 image(s) missing alt text
 week-12-14-collisions-rotational-motion/ang_momentum: 4 image(s) missing alt text
 week-12-14-collisions-rotational-motion/l_principle: 1 image(s) missing alt text
+examples/a_meter_stick_on_the_ice: 1 image(s) missing alt text
+examples/a_ping-pong_ball_hits_a_stationary_bowling_ball_head-on: 1 image(s) missing alt text
+examples/a_rebounding_block: 1 image(s) missing alt text
+examples/a_rod_rotating_not_around_its_center: 1 image(s) missing alt text
+examples/a_yo-yo: 2 image(s) missing alt text
+examples/videoswk13: 1 image(s) missing alt text
+examples/angular_momentum_of_halley_s_comet: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/impulse: 1 image(s) missing alt text
+examples/calculating_the_force_due_to_a_stretched_spring: 2 image(s) missing alt text
+examples/calcgravforce: 1 image(s) missing alt text
+examples/netforce: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/relativemotion: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/videoswk4: 1 image(s) missing alt text
+examples/videoswk6: 1 image(s) missing alt text
+examples/two_students_colliding: 1 image(s) missing alt text
+examples/vectordecomposition: 2 image(s) missing alt text
+examples/earth_s_translational_angular_momentum: 1 image(s) missing alt text
+examples/elastic_collision_of_two_identical_carts: 1 image(s) missing alt text
+examples/finding_the_range_of_projectile: 1 image(s) missing alt text
+examples/finding_the_time_of_flight_of_a_projectile: 1 image(s) missing alt text
+examples/deer_slug_example: 1 image(s) missing alt text
+examples/videoswk3: 1 image(s) missing alt text
+examples/holding_block_against_a_wall: 1 image(s) missing alt text
+examples/maximally_inelastic_collision_of_two_identical_carts: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/mit_water_balloon_fight: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/finalp: 1 image(s) missing alt text
+examples/finalloccf: 1 image(s) missing alt text
+examples/predicting_the_motion_of_system_subject_to_a_spring_interaction: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/rotational_kinetic_energy_and_work: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/videoswk10: 1 image(s) missing alt text
+examples/sledding: 3 image(s) missing alt text; 3 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/sliding_to_a_stop: 1 content image(s) dropped entirely (unrecoverable, no alt-text placeholder to find)
+examples/videoswk9: 1 image(s) missing alt text
+examples/statics: 2 image(s) missing alt text
+examples/statictorque: 2 image(s) missing alt text
+examples/the_jumper: 1 image(s) missing alt text
+examples/the_moment_of_inertia_of_a_bicycle_wheel: 1 image(s) missing alt text
+examples/the_moment_of_inertia_of_a_diatomic_molecule: 1 image(s) missing alt text
+examples/videoswk12: 1 image(s) missing alt text
+examples/videoswk11: 1 image(s) missing alt text
+examples/videoswk5: 1 image(s) missing alt text
+examples/videoexample1: 1 image(s) missing alt text
+examples/walking_in_a_boat: 2 image(s) missing alt text
+examples/videoswk7: 1 image(s) missing alt text

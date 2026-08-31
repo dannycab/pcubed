@@ -100,4 +100,4 @@ The sign of each torque is incredibly important for determining the net torque. 
 
 ### Examples
 
-- [Video Example: Torque on a wrench](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:videoswk12)
+- [Video Example: Torque on a wrench](/pcubed/examples/videoswk12/)

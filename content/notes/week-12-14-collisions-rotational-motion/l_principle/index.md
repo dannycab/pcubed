@@ -54,4 +54,4 @@ If instead you chose a different location (e.g., location B in the figure to the
 
 ## Examples
 
-- [A Meter Stick on the Ice](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:a_meter_stick_on_the_ice)
+- [A Meter Stick on the Ice](/pcubed/examples/a_meter_stick_on_the_ice/)

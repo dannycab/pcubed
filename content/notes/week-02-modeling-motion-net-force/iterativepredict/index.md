@@ -33,4 +33,4 @@ If you were to connect the straight lines in this picture, you would see a traje
 
 ## Examples
 
-[predicting_the_motion_of_system_subject_to_a_spring_interaction](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:predicting_the_motion_of_system_subject_to_a_spring_interaction)
+[predicting_the_motion_of_system_subject_to_a_spring_interaction](/pcubed/examples/predicting_the_motion_of_system_subject_to_a_spring_interaction/)

@@ -35,4 +35,4 @@ $$
 
 ## Examples
 
-- [Calculating the velocity of a pla](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:relativemotion)
+- [Calculating the velocity of a pla](/pcubed/examples/relativemotion/)

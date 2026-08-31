@@ -81,4 +81,4 @@ Here, you obtain $m_{1}$ without any additional work. So, to summarize, every pi
 
 ## Examples
 
-- [Calculating Static Torque](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:statictorque)
+- [Calculating Static Torque](/pcubed/examples/statictorque/)
