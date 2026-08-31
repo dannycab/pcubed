@@ -1,0 +1,22 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ if .Sections }}
+  {{ range .Sections.ByWeight }}
+    <section class="week">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <ol>
+        {{ range .Pages.ByWeight }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ol>
+    </section>
+  {{ end }}
+{{ else }}
+  <ol>
+    {{ range .Pages.ByWeight }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ol>
+{{ end }}
+{{ end }}

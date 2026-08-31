@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="note">
+  {{ with .Parent }}
+    <p class="breadcrumb"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+  {{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.textbook_ref }}<p class="textbook-ref">{{ . }}</p>{{ end }}
+  {{ .Content }}
+</article>
+
+{{ $page := . }}
+{{ $siblings := .Parent.Pages.ByWeight }}
+{{ $prev := "" }}
+{{ $next := "" }}
+{{ range $i, $p := $siblings }}
+  {{ if eq $p $page }}
+    {{ if gt $i 0 }}{{ $prev = index $siblings (sub $i 1) }}{{ end }}
+    {{ if lt (add $i 1) (len $siblings) }}{{ $next = index $siblings (add $i 1) }}{{ end }}
+  {{ end }}
+{{ end }}
+<nav class="page-nav">
+  {{ with $prev }}<a class="prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+  {{ with $next }}<a class="next" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+</nav>
+{{ end }}
