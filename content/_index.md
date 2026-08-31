@@ -9,8 +9,9 @@ physics problems with both analytical methods and computational tools like
 VPython, while instructors facilitate discussion and debate rather than
 deliver material from the front of the room.
 
-This site collects the P³ course notes, organized by week, migrated from the
-original [MSU PERL wiki](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes).
+This site collects the P³ course notes, organized by week, and the worked
+examples referenced throughout them, migrated from the original [MSU PERL
+wiki](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes).
 
 Course materials were developed by Michigan State University's [Physics
 Education Research Lab](https://www.pa.msu.edu/) and Department of Physics

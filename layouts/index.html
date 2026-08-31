@@ -10,7 +10,10 @@
     <div class="hero">
       <h1>{{ .Site.Title }}</h1>
       <p>{{ .Site.Params.subtitle }}</p>
-      {{ with .Site.GetPage "/notes" }}<a class="button" href="{{ .RelPermalink }}">Browse the Notes →</a>{{ end }}
+      <div class="hero-actions">
+        {{ with .Site.GetPage "/notes" }}<a class="button" href="{{ .RelPermalink }}">Browse the Notes →</a>{{ end }}
+        {{ with .Site.GetPage "/examples" }}<a class="button" href="{{ .RelPermalink }}">Browse the Examples →</a>{{ end }}
+      </div>
     </div>
     {{ .Content }}
   </main>
