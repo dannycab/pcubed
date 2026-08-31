@@ -9,7 +9,7 @@
     <div class="hero">
       <h1>{{ .Site.Title }}</h1>
       <p>{{ .Site.Params.subtitle }}</p>
-      <a class="button" href="{{ "/notes/" | relURL }}">Browse the Notes →</a>
+      {{ with .Site.GetPage "/notes" }}<a class="button" href="{{ .RelPermalink }}">Browse the Notes →</a>{{ end }}
     </div>
   </main>
   {{ partial "footer.html" . }}
