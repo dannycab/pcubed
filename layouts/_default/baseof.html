@@ -4,10 +4,12 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   {{ partial "header.html" . }}
-  <main class="container">
+  <main class="container" id="main-content">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ partial "toolbar.html" . }}
 </body>
 </html>

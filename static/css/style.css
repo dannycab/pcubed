@@ -1,15 +1,31 @@
 :root {
   --max-width: 760px;
+  --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #666;
   --accent: #1a5fb4;
   --border: #ddd;
+  color-scheme: light;
 }
+
+:root[data-theme="dark"] {
+  --bg: #0d1117;
+  --fg: #f0f6fc;
+  --muted: #9198a1;
+  --accent: #58a6ff;
+  --border: #30363d;
+  color-scheme: dark;
+}
+
+:root[data-font-size="sm"] { font-size: 93.75%; }
+:root[data-font-size="lg"] { font-size: 112.5%; }
+:root[data-font-size="xl"] { font-size: 125%; }
 
 * { box-sizing: border-box; }
 
 body {
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg);
   color: var(--fg);
   line-height: 1.6;
   margin: 0;

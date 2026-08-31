@@ -1,9 +1,11 @@
 <header class="site-header">
   <div class="container">
     <a class="site-title" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
-    <nav>
+    <nav aria-label="Main">
+      {{ $current := $.RelPermalink }}
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+        {{ $active := eq ($current | strings.TrimSuffix "/") (( .URL | relURL ) | strings.TrimSuffix "/") }}
+        <a href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
   </div>

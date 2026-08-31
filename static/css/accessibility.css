@@ -1,0 +1,158 @@
+/* ============================================================================
+   Accessibility Add-On Layer
+   WCAG AAA enhancements layered on top of style.css
+   ============================================================================ */
+
+:root {
+  --a11y-focus-color: #000000;
+}
+
+/* In dark mode a black ring disappears into the background, so flip it to
+   white — still distinct from the lighter blue accent thanks to the offset. */
+:root[data-theme="dark"] {
+  --a11y-focus-color: #ffffff;
+}
+
+/* Skip to main content link - moved off-screen until focused. Offset
+   horizontally rather than with a height-matched negative top, so it can't
+   leave a sliver visible if padding/border/line-height change. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  color: var(--fg);
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--a11y-focus-color);
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+/* Focus indicator: solid black, distinct from the accent blue used by
+   links/buttons so the ring never blends into the element it outlines. */
+:focus-visible {
+  outline: 3px solid var(--a11y-focus-color);
+  outline-offset: 2px;
+}
+
+/* Current page in primary nav: relies on more than color alone */
+.site-header nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  font-weight: 700;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Forced/high-contrast mode: thicken borders and underlines */
+@media (prefers-contrast: more) {
+  a { text-decoration-thickness: 2px; }
+  .site-header, .site-footer, .page-nav { border-width: 2px; }
+  article.note th, article.note td { border-width: 2px; }
+}
+
+/* Print: show link destinations, hide the skip link */
+@media print {
+  a { text-decoration: underline; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; }
+  .skip-link { display: none; }
+}
+
+/* Display settings toolbar: collapsed to a small toggle button by default so
+   it never sits on top of page content; the panel only opens on demand. */
+.a11y-toolbar {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 200;
+  font-size: 0.8rem;
+}
+.a11y-toolbar__toggle {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.6rem;
+  border: 2px solid var(--fg);
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.a11y-toolbar__toggle[aria-expanded="true"] {
+  background: var(--fg);
+  color: var(--bg);
+}
+.a11y-toolbar__panel {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 0.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  background: var(--bg);
+  color: var(--fg);
+  border: 2px solid var(--fg);
+  border-radius: 8px;
+  padding: 0.75rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+/* The [hidden] attribute loses to the class's `display: flex` above unless
+   restated here — author CSS always beats the UA stylesheet's [hidden] rule. */
+.a11y-toolbar__panel[hidden] {
+  display: none;
+}
+.a11y-toolbar__label {
+  font-weight: 700;
+}
+.a11y-toolbar__group {
+  display: flex;
+  gap: 0.3rem;
+}
+.a11y-toolbar__btn {
+  min-width: 2.25rem;
+  min-height: 2.25rem;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid var(--fg);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.a11y-toolbar__btn[aria-pressed="true"] {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+/* Visually hide content but keep it available to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

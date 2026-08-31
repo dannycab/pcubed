@@ -1,0 +1,27 @@
+<div class="a11y-toolbar a11y-toolbar--collapsed" id="a11y-toolbar">
+  <button
+    type="button"
+    id="a11y-toolbar-toggle"
+    class="a11y-toolbar__toggle"
+    aria-expanded="false"
+    aria-controls="a11y-toolbar-panel"
+  >
+    <span aria-hidden="true">Aa</span>
+    <span class="sr-only">Display settings</span>
+  </button>
+
+  <div id="a11y-toolbar-panel" class="a11y-toolbar__panel" role="region" aria-label="Display settings" hidden>
+    <span class="a11y-toolbar__label" id="a11y-theme-label">Theme</span>
+    <div class="a11y-toolbar__group" role="group" aria-labelledby="a11y-theme-label">
+      <button type="button" class="a11y-toolbar__btn" data-theme-choice="light" aria-pressed="false">Light</button>
+      <button type="button" class="a11y-toolbar__btn" data-theme-choice="dark" aria-pressed="false">Dark</button>
+    </div>
+    <span class="a11y-toolbar__label" id="a11y-fontsize-label">Text size</span>
+    <div class="a11y-toolbar__group" role="group" aria-labelledby="a11y-fontsize-label">
+      <button type="button" class="a11y-toolbar__btn" data-fontsize-choice="sm" aria-pressed="false">S<span class="sr-only"> small text</span></button>
+      <button type="button" class="a11y-toolbar__btn" data-fontsize-choice="md" aria-pressed="false">M<span class="sr-only"> default text</span></button>
+      <button type="button" class="a11y-toolbar__btn" data-fontsize-choice="lg" aria-pressed="false">L<span class="sr-only"> large text</span></button>
+      <button type="button" class="a11y-toolbar__btn" data-fontsize-choice="xl" aria-pressed="false">XL<span class="sr-only"> extra large text</span></button>
+    </div>
+  </div>
+</div>

@@ -4,14 +4,17 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   {{ partial "header.html" . }}
-  <main class="container">
+  <main class="container" id="main-content">
     <div class="hero">
       <h1>{{ .Site.Title }}</h1>
       <p>{{ .Site.Params.subtitle }}</p>
       {{ with .Site.GetPage "/notes" }}<a class="button" href="{{ .RelPermalink }}">Browse the Notes →</a>{{ end }}
     </div>
+    {{ .Content }}
   </main>
   {{ partial "footer.html" . }}
+  {{ partial "toolbar.html" . }}
 </body>
 </html>

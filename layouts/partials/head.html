@@ -1,8 +1,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+<script>
+(function () {
+  try {
+    var theme = localStorage.getItem("pcubed-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    var fontSize = localStorage.getItem("pcubed-font-size") || "md";
+    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-font-size", fontSize);
+  } catch (e) {}
+})();
+</script>
 <link rel="stylesheet" href="{{ "vendor/katex/katex.min.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/accessibility.css" | relURL }}">
+<script defer src="{{ "js/toolbar.js" | relURL }}"></script>
 <script defer src="{{ "vendor/katex/katex.min.js" | relURL }}"></script>
 <script defer src="{{ "vendor/katex/contrib/auto-render.min.js" | relURL }}"></script>
 <script>
