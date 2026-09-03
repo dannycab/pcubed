@@ -1,5 +1,5 @@
 ---
-title: "Relative Motion"
+title: 'Relative Motion'
 weight: 4
 ---
 
@@ -35,4 +35,5 @@ $$
 
 ## Examples
 
-- [Calculating the velocity of a pla](/pcubed/examples/relativemotion/)
+- [Calculating the velocity of a plane using relative measurements](/examples/relativemotion/)
+- [Video Example: Vector addition with a bear chase](/examples/videoexample1/)

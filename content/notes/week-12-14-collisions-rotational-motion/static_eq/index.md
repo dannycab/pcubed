@@ -56,4 +56,4 @@ You can use an [extended free-body diagram](/notes/week-12-14-collisions-rotatio
 
 ## Examples
 
-- [Static Equlibrium](/pcubed/examples/statics/)
+- [Static Equlibrium](/examples/statics/)

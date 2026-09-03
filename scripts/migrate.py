@@ -215,20 +215,24 @@ def rewrite_links(body: str) -> str:
     return body
 
 
+def yaml_single_quote(value: str) -> str:
+    return "'" + value.replace("'", "''") + "'"
+
+
 def process_page(slug: str, week_dir: str, weight: int):
     bundle_dir = CONTENT_DIR / week_dir / slug
     convert_docx(slug, bundle_dir)
     raw = (bundle_dir / "index.md").read_text()
     title, textbook_ref, body = split_title(raw)
+    title = convert_math(title)
     body = demote_headings(body)
     body = convert_math(body)
     body = convert_youtube(body)
     body = rewrite_links(body)
 
-    fm_lines = ["---", f'title: "{title}"', f"weight: {weight}"]
+    fm_lines = ["---", f"title: {yaml_single_quote(title)}", f"weight: {weight}"]
     if textbook_ref:
-        escaped = textbook_ref.replace('"', '\\"')
-        fm_lines.append(f'textbook_ref: "{escaped}"')
+        fm_lines.append(f"textbook_ref: {yaml_single_quote(textbook_ref)}")
     fm_lines.append("---\n")
     (bundle_dir / "index.md").write_text("\n".join(fm_lines) + "\n" + body)
 

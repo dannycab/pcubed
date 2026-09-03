@@ -96,5 +96,5 @@ The energy flows back and forth between kinetic and potential. When the spring i
 
 ### Examples
 
-- [Energy in a Spring-Mass System](/pcubed/examples/energy_in_a_spring-mass_system/)
-- [Rebounding Block](/pcubed/examples/a_rebounding_block/)
+- [Energy in a Spring-Mass System](/examples/energy_in_a_spring-mass_system/)
+- [Rebounding Block](/examples/a_rebounding_block/)

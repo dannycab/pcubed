@@ -1,7 +1,7 @@
 ---
-title: "The Motion of the Center of Mass"
+title: 'The Motion of the Center of Mass'
 weight: 5
-textbook_ref: "Section 3.11 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 3.11 in Matter and Interactions (4th edition)'
 ---
 
 In a system of multiple particles, each particle has its own motion. But often, its useful to think about the collective motion of these objects. By “collective motion”, you are looking to understand how the whole system is moving: Is it stationary and objects rotate around? Is there some net translation (movement to the right or left)? Or something more peculiar? **In these notes you will read about the concept of the center of mass, which helps us track the overall motion of a system.**
@@ -85,3 +85,11 @@ The simulation below shows a binary star (red star and yellow star) system where
 {{< youtube sNMPr1xi0DA >}}
 
 ## Examples
+
+- [Walking in a Boat](/examples/walking_in_a_boat/)
+
+------------------------------------------------------------------------
+
+[<sup>1)</sup>](/notes/week-06-solids-curved-motion/center_of_mass/#fnt__1)
+
+We could, but we'd only get an approximate answer where the accuracy depends on how small the chunks are.

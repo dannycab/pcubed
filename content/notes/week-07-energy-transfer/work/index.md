@@ -1,7 +1,7 @@
 ---
-title: "Work: Mechanical Energy Transfer"
+title: 'Work: Mechanical Energy Transfer'
 weight: 3
-textbook_ref: "Section 6.3 and 6.4 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 6.3 and 6.4 in Matter and Interactions (4th edition)'
 ---
 
 As you read earlier, [the change in the total energy of a system is equal to the work done on that system by its surroundings](/notes/week-07-energy-transfer/point_particle/). **In these notes, you will read about the formal definition of work, which is the transfer of mechanical energy, and a mathematical idea that underpins work - the dot product.**
@@ -42,7 +42,7 @@ $$
 Work = (Force)*(distance) = (Newtons)*(meters) = Nm = Joule
 $$
 
-The units of work is a Joule named after [James Joule](http://en.wikipedia.org/wiki/James_Prescott_Joule), an English physicist and beer brewer. One Joule is equal to 1 $Nm$ or 1 $kgm^{2}/s^{2}$.
+The units of work is a Joule named after [James Joule](https://en.wikipedia.org/wiki/James_Prescott_Joule), an English physicist and beer brewer. One Joule is equal to 1 $Nm$ or 1 $kgm^{2}/s^{2}$.
 
 ## Work can be positive, negative, or zero
 
@@ -82,4 +82,34 @@ When using work, it is critical to pay attention to the relative direction of th
 
 ## Lecture Video
 
-\[SIMULATION LINK NEEDS MANUAL REVIEW: "Untitled" -- source URL could not be recovered from this export\]
+{{< youtube cOnYwdHbFmE >}}
+
+## Graphing the Work Done: Force vs Displacement Graphs
+
+The work that is done by a single force (or the net force) can be represented graphically in a force vs displacement graph. This is similar to the [force vs time graphs](/notes/week-04-05-springs-contact-interactions/impulsegraphs/) that you read about earlier where the area under the was the change in the momentum. In those graphs, you were limited to talking about the motion along a single direction. You would need three graphs to represent the momentum change in each direction.
+
+In force vs displacement graphs, the limitations are more strict. Because the work done (green area under the curve below) is a result of a dot product between two vectors, we lose information about the direction of the forces and displacement when we compute it. So, these graphs are useful to think about the force in a particular direction and a displacement in that or opposite that direction.
+
+For example, in the figure below, this might represent the net force acting on a cart in the x-direction. Sometimes, that force is in the direction of the displacement (positive work represented by the blue shaded area above the y=0 line). At other times that force is opposite the direction of the displacement (negative work represented by the red shaded area below the y=0 line).
+
+Interactive simulation: Force vs Displacement — <https://msuperl.org/interactive/mechanics/net_force_vs_position_discrete.html>
+
+## Work by the Local Gravitational Force
+
+Consider an object (mass, $m$) that falls under the force of gravity through a distance ($\Delta y$). The force points down and the displacement points down, so the work is positive and the kinetic energy increases. Choosing the +$y$-axis to point up, you can calculate the change in kinetic energy of the particle. Using the [energy principle](/notes/week-07-energy-transfer/define_energy/#the_first_law_of_thermodynamics_the_energy_principle),
+
+$$
+\Delta K = W_{grav} = {\overset{\rightarrow}{F}}_{grav} \cdot \Delta\overset{\rightarrow}{r} = \langle 0, - mg\rangle \cdot \langle 0, - \Delta y\rangle = mg\Delta y
+$$
+
+Evidently, the work done by the local gravitational force is related to the vertical height change.
+
+$$
+W_{grav} = {\overset{\rightarrow}{F}}_{grav} \cdot \Delta\overset{\rightarrow}{r}\ \ which\ is\ typically\ \ W_{grav} = mg\Delta y
+$$
+
+What's very interesting about the work done by the local gravitational force is that it is [*conservative*](https://en.wikipedia.org/wiki/Conservative_force). The work done by the gravitational force does not depend on the path the object takes, only on the initial and final location of the object, which is how conservative forces are defined. In particular, it only depends on the change in the vertical position of the particle. That's all that matters for conservative forces – the end points.
+
+## Examples
+
+- [Video Example: Work and Friction + Ramp](/examples/videoswk7/)

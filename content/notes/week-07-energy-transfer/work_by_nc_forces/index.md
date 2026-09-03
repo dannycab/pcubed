@@ -1,7 +1,7 @@
 ---
-title: "Work Done by Non-Constant Forces"
+title: 'Work Done by Non-Constant Forces'
 weight: 4
-textbook_ref: "Section 6.3 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 6.3 in Matter and Interactions (4th edition)'
 ---
 
 Until now, the [definition of work](/notes/week-07-energy-transfer/work/) that has been used is for forces that are constant vectors (constant in magnitude and direction). **In these notes, you will read about how to determine the work done by forces that change (either in their magnitude or direction).**
@@ -37,3 +37,15 @@ If we make each chunk smaller (and thus have more chunks), the estimate would ge
 $$
 W_{total} = \int_{i}^{f}\overset{\rightarrow}{F} \cdot d\overset{\rightarrow}{r}
 $$
+
+This is the general definition of the work done by a force. It is true even if the force isn't constant and if the path is curved. In this class, you will usually use it in only one-dimension,
+
+$$
+W_{total} = \int_{x_{i}}^{x_{f}}F_{x}dx
+$$
+
+Don't get hung up on the choice of the $x$-direction here, it's just meant to communicate that the integral is calculated along a single dimension because the object increases its velocity component in only one direction.
+
+## Example
+
+- [MIT Water Balloon Fight](/examples/mit_water_balloon_fight/)

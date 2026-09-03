@@ -118,7 +118,7 @@ $$
 
 ## Examples
 
-[Predicting the location of an object undergoing constant force motion](/pcubed/examples/finalloccf/)
+[Predicting the location of an object undergoing constant force motion](/examples/finalloccf/)
 
 [Video Example: Box on a Ramp](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:example:videotutorial1)
 

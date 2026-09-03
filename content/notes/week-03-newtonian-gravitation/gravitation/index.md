@@ -90,8 +90,8 @@ Newton's model of the gravitational force was considered one of the simplest and
 
 ## Examples
 
-- [Calculating the Gravitational Force](/pcubed/examples/calcgravforce/)
-- [Video Example: Gravitational force and Kinematic equations on the Moon](/pcubed/examples/videoswk3/)
+- [Calculating the Gravitational Force](/examples/calcgravforce/)
+- [Video Example: Gravitational force and Kinematic equations on the Moon](/examples/videoswk3/)
 
 ------------------------------------------------------------------------
 

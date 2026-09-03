@@ -1,7 +1,7 @@
 ---
-title: "Scalars and Vectors"
+title: 'Scalars and Vectors'
 weight: 1
-textbook_ref: "Section 1.4 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 1.4 in Matter and Interactions (4th edition)'
 ---
 
 We often use mathematics to describe physical situations. Two types of quantities that are particularly important for describing physical systems are scalars and vectors. **In the notes below, you will read about those quantities (in general) and their properties.**
@@ -112,8 +112,17 @@ $$
 
 ## Examples
 
-- 
+- [Determining vector components](/examples/vectordecomposition/)
+- [Calculating a unit vector](/examples/unitvector/)
 
-<!-- -->
+## Vector Simulation
 
-- 
+Here's simulation that let's you play with vectors in 2D.[<sup>1)</sup>](/notes/week-01-modeling-motion-no-net-force/scalars_and_vectors/#fn__1) If the embedded simulation doesn't work, you can find it [on the PhET website](http://phet.colorado.edu/sims/vector-addition/vector-addition_en.html).
+
+Interactive simulation: PhET Vector Simulation — <https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_all.html>
+
+------------------------------------------------------------------------
+
+[<sup>1)</sup>](/notes/week-01-modeling-motion-no-net-force/scalars_and_vectors/#fnt__1)
+
+Credit the [PhET Team](http://phet.colorado.edu/) at the University of Colorado for the simulation.

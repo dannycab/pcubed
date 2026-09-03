@@ -3,7 +3,7 @@ title: 'Example: Determining vector components'
 weight: 21
 ---
 
-Determining the [components of a vector](/pcubed/notes/week-01-modeling-motion-no-net-force/scalars_and_vectors/) in a given or established coordinate system is crucial for being able to explain or predict the motion of systems. In addition to other uses, in mechanics, decomposing vectors into their components is quite often used to determine [the net force](/pcubed/notes/week-02-modeling-motion-net-force/momentum_principle/) along particular directions. Such information is useful when making predictions or constructing explanations of the motion.
+Determining the [components of a vector](/notes/week-01-modeling-motion-no-net-force/scalars_and_vectors/) in a given or established coordinate system is crucial for being able to explain or predict the motion of systems. In addition to other uses, in mechanics, decomposing vectors into their components is quite often used to determine [the net force](/notes/week-02-modeling-motion-net-force/momentum_principle/) along particular directions. Such information is useful when making predictions or constructing explanations of the motion.
 
 In the figure below, a position vector has been drawn. It has a magnitude of $5\ m$ and makes an angle of 35$^{\circ}$ with the negative y-axis. Determine the components of this vector in the coordinate system that is drawn.
 

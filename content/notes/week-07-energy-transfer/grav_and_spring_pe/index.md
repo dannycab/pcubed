@@ -86,8 +86,8 @@ Dissipative forces such as friction and air drag are non-conservative forces. Th
 
 ## Examples
 
-- [Sledding down a hill](/pcubed/examples/sledding/)
-- [The Jumper](/pcubed/examples/the_jumper/)
+- [Sledding down a hill](/examples/sledding/)
+- [The Jumper](/examples/the_jumper/)
 
 ------------------------------------------------------------------------
 

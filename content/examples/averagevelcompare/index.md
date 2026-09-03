@@ -3,7 +3,7 @@ title: 'Example: Comparing two ways of calculating the average velocity'
 weight: 20
 ---
 
-You have learned about [two ways of computing the average velocity](/pcubed/notes/week-01-modeling-motion-no-net-force/displacement_and_velocity/). The *arithmetic* average is an approximation and it can be a poor one. Consider the driving from East Lansing to Chicago (222 miles or 358 km). To get to Chicago, you drive at 55.0 mph (24.6 $\frac{m}{s}$) for 1 hour and 66.8 mph (29.9 $\frac{m}{s}$) for 2.5 hours. Compare the average velocity to the *arithmetic* average velocity.
+You have learned about [two ways of computing the average velocity](/notes/week-01-modeling-motion-no-net-force/displacement_and_velocity/). The *arithmetic* average is an approximation and it can be a poor one. Consider the driving from East Lansing to Chicago (222 miles or 358 km). To get to Chicago, you drive at 55.0 mph (24.6 $\frac{m}{s}$) for 1 hour and 66.8 mph (29.9 $\frac{m}{s}$) for 2.5 hours. Compare the average velocity to the *arithmetic* average velocity.
 
 ## Setup
 

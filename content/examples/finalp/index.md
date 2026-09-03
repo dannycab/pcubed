@@ -31,7 +31,7 @@ weight: 33
 
 <img src="./media/rId14.png" style="width:3.61111in;height:2.81944in" alt="[ALT TEXT NEEDED: figure-01.png -- describe this figure for screen readers]" />
 
-- The final momentum of the puck is given by the update form of the [Momentum Principle](/pcubed/notes/week-02-modeling-motion-net-force/momentum_principle/): ${\overset{\rightarrow}{p}}_{f} = {\overset{\rightarrow}{p}}_{i} + {\overset{\rightarrow}{F}}_{net}\Delta t$.
+- The final momentum of the puck is given by the update form of the [Momentum Principle](/notes/week-02-modeling-motion-net-force/momentum_principle/): ${\overset{\rightarrow}{p}}_{f} = {\overset{\rightarrow}{p}}_{i} + {\overset{\rightarrow}{F}}_{net}\Delta t$.
 
 ## Solution
 

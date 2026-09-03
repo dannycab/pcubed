@@ -3,7 +3,7 @@ title: 'Example: Calculating the change in momentum'
 weight: 10
 ---
 
-[In another example](/pcubed/examples/netforce/), we determined the net force acting on the fan cart in the video below.
+[In another example](/examples/netforce/), we determined the net force acting on the fan cart in the video below.
 
 {{< youtube MAa7sYKa5GA >}}
 
@@ -22,7 +22,7 @@ You need to compute the momentum change of the fan cart using the information pr
   - the force applied by the track (directly upward)
   - a frictional forces and air resistance that resist the motion
 - The acceleration due to gravity is 9.8 $\frac{m}{s^{2}}$ and is directed downward.
-- [In another example](/pcubed/examples/netforce/), we determined the net force acting on the fan cart to be, ${\overset{\rightarrow}{F}}_{cart} = \langle 0.45,0,0\rangle N$.
+- [In another example](/examples/netforce/), we determined the net force acting on the fan cart to be, ${\overset{\rightarrow}{F}}_{cart} = \langle 0.45,0,0\rangle N$.
 
 ### Lacking
 
@@ -31,7 +31,7 @@ You need to compute the momentum change of the fan cart using the information pr
 
 ### Approximations & Assumptions
 
-- Over the interval that we care about it, we will assume the net force is doesn't change. That is, the cart experiences [constant force motion](/pcubed/notes/week-02-modeling-motion-net-force/constantf/).
+- Over the interval that we care about it, we will assume the net force is doesn't change. That is, the cart experiences [constant force motion](/notes/week-02-modeling-motion-net-force/constantf/).
 
 ### Representations
 

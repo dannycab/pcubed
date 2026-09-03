@@ -104,7 +104,7 @@ While these maximally inelastic collisions do not conserve kinetic energy, they 
 
 ### Examples
 
-- [Elastic Collision of Two Identical Carts](/pcubed/examples/elastic_collision_of_two_identical_carts/)
-- [Maximally Inelastic Collision of Two Identical Carts](/pcubed/examples/maximally_inelastic_collision_of_two_identical_carts/)
-- [A Ping-Pong Ball Hits a Stationary Bowling Ball Head-on](/pcubed/examples/a_ping-pong_ball_hits_a_stationary_bowling_ball_head-on/)
-- [Video Example: Two asteroids collide in space](/pcubed/examples/videoswk11/)
+- [Elastic Collision of Two Identical Carts](/examples/elastic_collision_of_two_identical_carts/)
+- [Maximally Inelastic Collision of Two Identical Carts](/examples/maximally_inelastic_collision_of_two_identical_carts/)
+- [A Ping-Pong Ball Hits a Stationary Bowling Ball Head-on](/examples/a_ping-pong_ball_hits_a_stationary_bowling_ball_head-on/)
+- [Video Example: Two asteroids collide in space](/examples/videoswk11/)

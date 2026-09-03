@@ -18,14 +18,12 @@ DOCX_DIR = Path.home() / "Desktop/pcubed-solutions/docx/183_examples"
 HTML_DIR = Path.home() / "Desktop/pcubed-solutions/html-complete/183_examples"
 CONTENT_DIR = ROOT / "content" / "examples"
 
-SITE_PREFIX = "/pcubed"
-
 SLUGS = sorted(
     p.stem.removeprefix("183_notes_examples_") for p in DOCX_DIR.glob("183_notes_examples_*.docx")
 )
 assert len(SLUGS) == 52
 
-EXAMPLES_LINK_MAP = {slug: f"{SITE_PREFIX}/examples/{slug}/" for slug in SLUGS}
+EXAMPLES_LINK_MAP = {slug: f"/examples/{slug}/" for slug in SLUGS}
 NOTES_LINK_MAP = migrate.LINK_MAP
 
 EXAMPLES_WIKI_LINK_RE = re.compile(

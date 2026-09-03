@@ -92,8 +92,8 @@ So, when you can reasonably assume that the major interaction between the system
 
 ## Examples
 
-- [Finding the time of flight of a projectile](/pcubed/examples/finding_the_time_of_flight_of_a_projectile/)
-- [Finding the range of projectile](/pcubed/examples/finding_the_range_of_projectile/)
+- [Finding the time of flight of a projectile](/examples/finding_the_time_of_flight_of_a_projectile/)
+- [Finding the range of projectile](/examples/finding_the_range_of_projectile/)
 
 ------------------------------------------------------------------------
 

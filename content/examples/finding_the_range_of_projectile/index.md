@@ -3,7 +3,7 @@ title: 'Example: Finding the range of a projectile'
 weight: 26
 ---
 
-In the previous example of [time of flight](/pcubed/examples/finding_the_time_of_flight_of_a_projectile/), the out of control bus is forced to jump from a location $\langle 0,40, - 5\rangle$m with an initial velocity of $\langle 80,7, - 5\rangle m/s^{- 1}$. We have now found the time of flight to be [3.65s](/pcubed/examples/finding_the_time_of_flight_of_a_projectile/) and now want to find the position of where the bus returns to the ground.
+In the previous example of [time of flight](/examples/finding_the_time_of_flight_of_a_projectile/), the out of control bus is forced to jump from a location $\langle 0,40, - 5\rangle$m with an initial velocity of $\langle 80,7, - 5\rangle m/s^{- 1}$. We have now found the time of flight to be [3.65s](/examples/finding_the_time_of_flight_of_a_projectile/) and now want to find the position of where the bus returns to the ground.
 
 ### Facts
 
@@ -11,7 +11,7 @@ In the previous example of [time of flight](/pcubed/examples/finding_the_time_of
 - Initial velocity of the bus $\langle 80,7, - 5\rangle$
 - The acceleration due to gravity is 9.8 $\frac{m}{s^{2}}$ and is directed downward.
 - The bus experiences one force - the gravitational force (directly down).
-- The bus takes [3.65s](/pcubed/examples/finding_the_time_of_flight_of_a_projectile/) to reach the ground (from previous problem)
+- The bus takes [3.65s](/examples/finding_the_time_of_flight_of_a_projectile/) to reach the ground (from previous problem)
 
 ### Lacking
 
@@ -34,7 +34,7 @@ $$
 {\overset{\rightarrow}{r}}_{f} = {\overset{\rightarrow}{r}}_{i} + {\overset{\rightarrow}{v}}_{avg}\Delta t
 $$
 
-Also know as the [position update formula](/pcubed/notes/week-01-modeling-motion-no-net-force/displacement_and_velocity/).
+Also know as the [position update formula](/notes/week-01-modeling-motion-no-net-force/displacement_and_velocity/).
 
 ## Solution
 

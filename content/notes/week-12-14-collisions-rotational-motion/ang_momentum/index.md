@@ -1,7 +1,7 @@
 ---
-title: "Angular Momentum"
+title: 'Angular Momentum'
 weight: 6
-textbook_ref: "Section 11.1, 11.2 and 11.3 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 11.1, 11.2 and 11.3 in Matter and Interactions (4th edition)'
 ---
 
 Angular momentum is a way to measure the rotation of a system. As we did with kinetic energy (which is a way to measure the motion of a system), we can separate the angular momentum into translational and rotational bits. **In these notes, you will read about each of these two bits, how they are defined, and how to deal with systems that have both bits.** You will also be introduced to the “into/out of the page” language that we often use in physics to describe the direction of vectors that do not point in the plane.
@@ -108,8 +108,13 @@ The total angular momentum is defined about a point A, but this location only ma
 
 ### Examples
 
-- 
+- [Angular Momentum of Halley's Comet](/examples/angular_momentum_of_halley_s_comet/)
+- [Earth's Translational Angular Momentum](/examples/earth_s_translational_angular_momentum/)
+- [Rotational Angular Momentum of a Bicycle Wheel](/examples/rotational_angular_momentum_of_a_bicycle_wheel/)
+- [Video Example: Angular Momentum of a woman spinning](/examples/videoswk13/)
 
-<!-- -->
+------------------------------------------------------------------------
 
-- 
+[<sup>1)</sup>](/notes/week-12-14-collisions-rotational-motion/ang_momentum/#fnt__1)
+
+It is translational because it is due to the translation of the ball (the ball is not rotating about its own center).

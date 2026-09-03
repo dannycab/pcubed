@@ -1,7 +1,7 @@
 ---
-title: "Constant Velocity Motion"
+title: 'Constant Velocity Motion'
 weight: 2
-textbook_ref: "Section 1.4 and 1.6 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 1.4 and 1.6 in Matter and Interactions (4th edition)'
 ---
 
 *Our job in mechanics is to predict or explain motion. So, all the models and tools that we develop are aimed at achieving this goal.*
@@ -134,8 +134,5 @@ $$
 
 ## Examples
 
-- 
-
-<!-- -->
-
-- 
+- [Comparing the two ways of determining average velocity](/examples/averagevelcompare/)
+- [Predicting the location of a object undergoing constant velocity motion](https://www.msuperl.org/wikis/pcubed/doku.php?id=183_notes:examples:positionpredict)

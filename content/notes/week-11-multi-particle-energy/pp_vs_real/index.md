@@ -1,10 +1,10 @@
 ---
-title: "Point Particle and Real Systems"
+title: 'Point Particle and Real Systems'
 weight: 3
-textbook_ref: "Section 9.3 in Matter and Interactions (4th edition)"
+textbook_ref: 'Section 9.3 in Matter and Interactions (4th edition)'
 ---
 
-Until now, you read about the motion and energy of systems that are rigid, that is, they do not deform or change their shape. There are many applications where systems change their shape. Being able to analyze the motion and the transformation of energy in such systems is important to be able to predict and explain how these systems behave. Examples of these kinds of deformable systems are everywhere including children's toys (e.g., [yo-yo](http://en.wikipedia.org/wiki/Yo-yo)), engineering applications (e.g., engines such as [rhombic drives](http://en.wikipedia.org/wiki/Rhombic_drive)), and car accidents, which will be [discussed later](/notes/week-08-potential-energy-applications/colliding_systems/). **In these notes, you will read about how to analyze simpler forms of these deformable systems using the *point particle* or center of mass system.**
+Until now, you read about the motion and energy of systems that are rigid, that is, they do not deform or change their shape. There are many applications where systems change their shape. Being able to analyze the motion and the transformation of energy in such systems is important to be able to predict and explain how these systems behave. Examples of these kinds of deformable systems are everywhere including children's toys (e.g., [yo-yo](https://en.wikipedia.org/wiki/Yo-yo)), engineering applications (e.g., engines such as [rhombic drives](https://en.wikipedia.org/wiki/Rhombic_drive)), and car accidents, which will be [discussed later](/notes/week-08-potential-energy-applications/colliding_systems/). **In these notes, you will read about how to analyze simpler forms of these deformable systems using the *point particle* or center of mass system.**
 
 ### Lecture Video
 
@@ -89,3 +89,47 @@ $$
 $$
 
 Consider the point particle system for each puck. Because both experience the same change in their translation kinetic energy, the work done in the point particle system must be the same. There is only the pulling force acting on each puck, hence the displacement of the center of mass for each puck must be precisely the same. That is, while it might appear they should move different distances, the point particle energy principle tells you that the displacement of the center of mass of each puck must be the same. Below, this distance is called $d$.
+
+$$
+\Delta K_{trans} = \frac{1}{2}m\, v_{cm}^{2} = W_{cm} = F_{T}\, d
+$$
+
+### Where does the rotational energy come from?
+
+But why does Puck 2 rotate? You know there's [energy associated with rotation](/notes/week-11-multi-particle-energy/rot_ke/). If both pucks experience the same work in the point particle system, why does Puck 2 rotate?
+
+The point particle system can only describe the translation kinetic energy of a system. For Puck 1, the point particle and real system are exactly the same. **Puck 1 only has translational kinetic energy.**
+
+**But Puck 2 has rotational kinetic energy also.** So, you must analyze the energy in the real system. For now, let's assume there's only changes in kinetic energy (translation and rotation) and no thermal energy changes (and no Q).
+
+$$
+\Delta K_{tot} = \Delta K_{trans} + \Delta K_{rot} = W_{surr}
+$$
+
+$$
+\Delta K_{rot} = W_{surr} - \Delta K_{trans}
+$$
+
+$$
+\Delta K_{rot} = W_{surr} - F_{T}\, d
+$$
+
+If puck 2 has rotational kinetic energy, there must be more work done in the real system. That is, the distance through which the force acts must be longer than the displacement of the puck. This is absolutely the case because the rope unwinds from the puck, so the hand that pulls the rope actually moves farther than the center of mass. For example, if the hand moved a total distance $L$, which is larger than $d$, then the rope would have unwound a distance $L - d$. It is precisely this unwinding that leads to the rotational kinetic energy. It turns out it is also mathematically related.
+
+$$
+\Delta K_{rot} = F_{T}\, L - F_{T}\, d = F_{T}(L - d)
+$$
+
+This might all seem like a mathematical trick. But this is actually what we observe. The experiment can be set up and conducted as the video below shows.[<sup>1)</sup>](/notes/week-11-multi-particle-energy/pp_vs_real/#fn__1)
+
+[654x480](https://www.msuperl.org/wikis/pcubed/lib/exe/fetch.php?cache=&media=183_notes:twopucksdemo.mp4)
+
+### Examples
+
+- [A Yo-Yo](/examples/a_yo-yo/)
+
+------------------------------------------------------------------------
+
+[<sup>1)</sup>](/notes/week-11-multi-particle-energy/pp_vs_real/#fnt__1)
+
+This video originally appeared on the [Matter and Interactions instructor resource website](http://www.matterandinteractions.org/Content/Materials/materials.html).

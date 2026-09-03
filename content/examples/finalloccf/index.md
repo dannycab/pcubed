@@ -3,7 +3,7 @@ title: 'Example: Predicting the location of an object undergoing constant force 
 weight: 34
 ---
 
-The fan cart in the video below is observed to [accelerate](/pcubed/notes/week-02-modeling-motion-net-force/acceleration/) uniformly to the right. The air exerts a [constant force](/pcubed/notes/week-02-modeling-motion-net-force/constantf/) on the blades that is around $0.45N$. Determine the how far the fan cart has traveled after $2.2s$ if the cart starts from rest.
+The fan cart in the video below is observed to [accelerate](/notes/week-02-modeling-motion-net-force/acceleration/) uniformly to the right. The air exerts a [constant force](/notes/week-02-modeling-motion-net-force/constantf/) on the blades that is around $0.45N$. Determine the how far the fan cart has traveled after $2.2s$ if the cart starts from rest.
 
 ### Facts
 
@@ -24,7 +24,7 @@ The fan cart in the video below is observed to [accelerate](/pcubed/notes/week-0
 
 ### Approximations & Assumptions
 
-- Over the interval that we care about it, we will assume the net force doesn't change. That is, the cart experiences [constant force motion](/pcubed/notes/week-02-modeling-motion-net-force/constantf/).
+- Over the interval that we care about it, we will assume the net force doesn't change. That is, the cart experiences [constant force motion](/notes/week-02-modeling-motion-net-force/constantf/).
 - As a result, the motion occurs only in the horizontal direction.
 
 ### Representations

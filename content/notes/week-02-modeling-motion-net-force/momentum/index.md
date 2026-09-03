@@ -54,5 +54,5 @@ $$
 
 ## Examples
 
-- [Calculating the momentum of a fast-moving object ($v \sim c$)](/pcubed/examples/momentumfast/)
-- [Calculating the momentum of a slow-moving object ($v \ll c$)](/pcubed/examples/momentumslow/)
+- [Calculating the momentum of a fast-moving object ($v \sim c$)](/examples/momentumfast/)
+- [Calculating the momentum of a slow-moving object ($v \ll c$)](/examples/momentumslow/)
