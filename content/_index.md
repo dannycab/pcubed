@@ -26,3 +26,7 @@ license.
 ## Acknowledgements
 
 The development of these materials was partially inspired by the work of our colleagues [Ruth Chabay](http://www.matterandinteractions.org), [Bruce Sherwood](http://www.matterandinteractions.org), [Michael Dubson](http://spot.colorado.edu/~dubson/), [Brian Bowe](http://www.dit.ie/physics/research/physicseducationresearchgroup/), [Robert Howard](http://www.dit.ie/physics/research/physicseducationresearchgroup/), [Vince Kuo](https://physics.mines.edu/project/hsia-po-vince-kuo/), and [Pat Kohl](https://physics.mines.edu/project/patrick-kohl/). This work has been supported by MSU's [CREATE for STEM Institute](http://create4stem.msu.edu).
+
+### Issues?
+
+*If you find typos, broken links, missing images, or other things to report, please send us an [email](mailto:caball14@msu.edu).*

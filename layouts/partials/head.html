@@ -5,8 +5,7 @@
 <script>
 (function () {
   try {
-    var theme = localStorage.getItem("pcubed-theme") ||
-      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    var theme = localStorage.getItem("pcubed-theme") || "light";
     var fontSize = localStorage.getItem("pcubed-font-size") || "md";
     document.documentElement.setAttribute("data-theme", theme);
     document.documentElement.setAttribute("data-font-size", fontSize);
