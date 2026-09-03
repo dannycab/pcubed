@@ -1,9 +1,7 @@
 baseURL = 'https://pcubed.msuperl.org/'
 locale = 'en-us'
-title = 'Projects & Practices in Physics'
+title = 'Projects & Practices in Physics - Mechanics'
 
-[params]
-  subtitle = "Course Notes"
 
 [markup]
   [markup.goldmark]
@@ -25,3 +23,8 @@ title = 'Projects & Practices in Physics'
   name = "Examples"
   url = "/examples/"
   weight = 2
+
+[[menu.main]]
+  name = "EMPCubed"
+  url = "https://empcubed.msuperl.org/"
+  weight = 3
