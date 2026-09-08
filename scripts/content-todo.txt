@@ -10,6 +10,7 @@ week-06-solids-curved-motion/youngs_modulus: 3 image(s) missing alt text
 week-06-solids-curved-motion/curving_motion: 3 image(s) missing alt text
 week-07-energy-transfer/define_energy: 2 image(s) missing alt text
 week-07-energy-transfer/point_particle: 1 image(s) missing alt text
+week-07-energy-transfer/energy_cons: 3 image(s) missing alt text
 week-07-energy-transfer/potential_energy: 2 image(s) missing alt text
 week-07-energy-transfer/grav_and_spring_pe: 2 image(s) missing alt text
 week-07-energy-transfer/rest_mass: 1 image(s) missing alt text

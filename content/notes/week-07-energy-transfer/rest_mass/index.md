@@ -1,6 +1,6 @@
 ---
 title: "Change of Rest Mass Energy"
-weight: 7
+weight: 8
 ---
 
 Until now, you have dealt with particles that do not change their identity. Changing the identity of a particle occurs when a [particle decays to another particle](http://en.wikipedia.org/wiki/Nuclear_fission) (or, typically, set of particles), or when [two or more particles fuse together](http://en.wikipedia.org/wiki/Nuclear_fusion). **In these notes, you will read about a new unit of energy (the [electron volt](http://en.wikipedia.org/wiki/Electronvolt)) and how to use energy to predict or explain particle decay.**

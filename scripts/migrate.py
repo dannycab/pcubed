@@ -61,9 +61,10 @@ PAGES = {
     "point_particle": ("week-07-energy-transfer", 2),
     "work": ("week-07-energy-transfer", 3),
     "work_by_nc_forces": ("week-07-energy-transfer", 4),
-    "potential_energy": ("week-07-energy-transfer", 5),
-    "grav_and_spring_pe": ("week-07-energy-transfer", 6),
-    "rest_mass": ("week-07-energy-transfer", 7),
+    "energy_cons": ("week-07-energy-transfer", 5),
+    "potential_energy": ("week-07-energy-transfer", 6),
+    "grav_and_spring_pe": ("week-07-energy-transfer", 7),
+    "rest_mass": ("week-07-energy-transfer", 8),
 
     "spring_pe": ("week-08-potential-energy-applications", 1),
     "force_and_pe": ("week-08-potential-energy-applications", 2),
@@ -95,7 +96,7 @@ PAGES = {
     "fundamental_principles": ("week-15-core-principles", 1),
 }
 
-assert len(PAGES) == 58
+assert len(PAGES) == 59
 
 LINK_MAP = {slug: f"/notes/{week_dir}/{slug}/" for slug, (week_dir, _) in PAGES.items()}
 

@@ -1,6 +1,6 @@
 ---
 title: "Potential Energy"
-weight: 5
+weight: 6
 textbook_ref: "Section 6.7 in Matter and Interactions (4th edition)"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Types of Potential Energy"
-weight: 6
+weight: 7
 textbook_ref: "Section 6.8 and 7.2 in Matter and Interactions (4th edition)"
 ---
 
