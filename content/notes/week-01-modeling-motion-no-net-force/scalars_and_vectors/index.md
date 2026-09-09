@@ -1,128 +1,117 @@
 ---
 title: 'Scalars and Vectors'
 weight: 1
-textbook_ref: 'Section 1.4 in Matter and Interactions (4th edition)'
+textbook_ref: 'Reference: Section 1.4 in Matter and Interactions (4th edition)'
 ---
 
-We often use mathematics to describe physical situations. Two types of quantities that are particularly important for describing physical systems are scalars and vectors. **In the notes below, you will read about those quantities (in general) and their properties.**
+In this course we will use mathematics to describe and explain motion. Two types of mathematical quantities that are particularly important for describing physical systems are scalars and vectors. **In the notes below, you will read about those quantities (in general) and their properties.**
 
 ### Lecture Video
 
 {{< youtube GNMgHoFI86o >}}
 
-### Definitions & Diagrams
+## Definitions & Diagrams
 
-***Scalars** are quantities that can be represented by a single number. Typical examples include mass, volume, density, and speed.*
+***Scalars*** are quantities that can be represented fully by a single number (possibly including units). Common examples include mass, volume, density, and speed.
 
-<img src="./media/rId14.png" style="width:3.125in;height:2.32292in" alt="[ALT TEXT NEEDED: figure-01.png -- describe this figure for screen readers]" />
+<img src="./media/image2.png" style="width:2.21736in;height:1.77153in" alt="Diagram illustrating a vector represented by a blue arrow labeled &quot;r&quot; pointing from &quot;tail&quot; to &quot;tip/head.&quot; " />***Vectors*** are quantities that intrinsically have ***both a magnitude and a direction***.  Typical examples include displacement ("5 meters to the left"), velocity ("moving upward at 3 m/s"), momentum, and force.  Describing objects moving in 3D space generally requires using vectors.
 
-***Vectors** are quantities that have both a magnitude and direction. Typical examples include displacement, velocity, momentum, and force.*
+Vectors are often represented with arrows. The end with the triangle is the “tip” or “head.” The other end, where the vector starts, is called the “tail.”  It doesn’t matter where the tail is located; it is the *difference* between the tip and the tail that defines the vector.  (There is no such diagrammatic representation for scalars, since they are just plain numbers.)
 
-Vectors are often represented with arrows. The end with the triangle is the “tip” or “head.” The other end is called the “tail.” The tail of a vector can be located anywhere; it is the difference between the tip and the tail that defines the vector itself. To the right is an example of a typical representation (a diagram) of a vector with the tip and tail labeled. We have no such diagrammatic representations for scalars.
+# Mathematical Operations on Vectors
 
-## Defining Vectors Mathematically
-
-<img src="./media/rId19.png" style="width:3.125in;height:3.20833in" alt="[ALT TEXT NEEDED: figure-02.png -- describe this figure for screen readers]" /> We define vectors in three dimensional space relative to some origin (where the tail of the vector is located). For example, a position vector $\overset{\rightarrow}{r}$ might defined relative to the origin of coordinates. The measures of the vector along the coordinate axes are called the vector's “components,” which can be positive or negative. Mathematically, a vector can be written with “bracket” notation:
+We define vectors in three-dimensional space relative to some origin (where the tail of the vector is located). For example, a position vector $\overrightarrow{r}$ might be defined relative to the origin of coordinates. The measures of the vector along the coordinate axes are called the vector's “components,” which can be positive or negative. Mathematically, a vector can be written with “bracket” notation:
 
 $$
-\mathbf{r} = \overset{\rightarrow}{r} = \langle r_{x},r_{y},r_{z}\rangle
+\overrightarrow{r} = \left\langle r_{x},r_{y},r_{z} \right\rangle
 $$
 
-*where* $r_{x}$*,* $r_{y}$*, and* $r_{z}$ *are the vector components in the* $x$*,* $y$*, and* $z$ *direction respectively.* They tell you “how much” of the vector $\overset{\rightarrow}{r}$ is aligned with each coordinate direction. The vector itself is denoted either in bold face (in texts) or with an arrow above it (both texts and handwritten).
+<img src="./media/image3.png" style="width:2.91736in;height:2.45208in" alt="3D vector diagram illustrating vector r in Cartesian coordinate system with x, y, z axes. Vector r is decomposed into components rx, ry, rz along unit vectors î, ĵ, k̂. The x component is the length of the projection of the vector onto the x axis, and similarly for the other two axes." />where $r_{x}$, $r_{y}$, and $r_{z}$ are called the vector *components* in the $x$, $y$, and $z$ directions, respectively. They tell you how much of vector $\overrightarrow{r}$ points along each coordinate direction: a vector that is purely along the *y* axis has zero *x* and *z* components, for example. A variable with an arrow above it indicates a vector (or sometimes boldface is used in textbooks).
 
-In physics, we often use the symbol $\overset{\rightarrow}{r}$ to represent the position vector, that is, the location of an object with respect to another point (e.g., the origin of coordinates).
+In physics, we often use the symbol $\overrightarrow{r}$ to represent the position vector, that is, the location of an object with respect to another point (e.g., the origin of coordinates).
 
-### Length of a vector
+## Magnitude of a Vector
 
-The **magnitude** (or length) of a vector is a scalar quantity. Mathematically, we represent the magnitude of a vector like this:
-
-$$
-r = |\overset{\rightarrow}{r}| = \sqrt{r_{x}^{2} + r_{y}^{2} + r_{z}^{2}}
-$$
-
-This calculation simply uses the [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem) in three dimensions to determine this length.
-
-### Unit vector
-
-Any vector can be multiplied or divided by a scalar quantity. Often it is useful to divide a vector by its own magnitude. The result is the “unit vector.” **The unit vector** is a vector with length 1, but that points in the direction of the original vector. *The unit vector has no units* (e.g., the unit vector of a position vector with units of meters has no units itself). Mathematically, we represent the unit vector like this:
+The **magnitude**, or length, of a vector is a scalar quantity. (“Magnitude” is a Latin term that just means how big something is, like the magnitude of an earthquake.) It can be denoted by the vector's symbol without an arrow, or by putting the vector in absolute value bars. Mathematically, we use the [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem) to calculate the length, treating the arrow as the hypotenuse of a triangle:
 
 $$
-\widehat{r} = \frac{\overset{\rightarrow}{r}}{|\overset{\rightarrow}{r}|} = \frac{\langle r_{x},r_{y},r_{z}\rangle}{\sqrt{r_{x}^{2} + r_{y}^{2} + r_{z}^{2}}}
+r = \left| \overrightarrow{r} \right| = \sqrt{r_{x}^{2} + r_{y}^{2} + r_{z}^{2}}
 $$
 
-With the concept of a unit vector, any vector can be written as a product of its magnitude and its unit vector like this:
+## Multiplication and Division
+
+Any vector can be multiplied or divided by a scalar quantity, which multiplies each component independently:
 
 $$
-\overset{\rightarrow}{r} = |\overset{\rightarrow}{r}|\widehat{r}
+A\overrightarrow{r} = \left\langle Ar_{x},Ar_{y},Ar_{z} \right\rangle
 $$
 
-While in physics we often represent vectors using bracket notation ($\overset{\rightarrow}{r} = \langle r_{x},r_{y},r_{z}\rangle$), other forms you might see in other courses could include coordinate unit vectors, for example:
+The magnitude of the resulting vector is the original magnitude times the scalar:\
+$\left| A\overrightarrow{r} \right| = A\left| \overrightarrow{r} \right|$. Multiplying by a negative number will reverse the direction of each component, so that the vector points in exactly the opposite direction.   
+
+*These formulae are only for multiplying a vector by a scalar.*  Multiplying vectors by other vectors is more complicated, and we'll look at that later.
+
+## Unit Vectors
+
+Often it is useful to divide a vector by its own magnitude. The result is called a *unit vector*, denoted by the vector's symbol under a ^ (“hat”) rather than an arrow.  The unit vector is **a vector with length 1**, but which points in the direction of the original vector: it represents just the direction, leaving the magnitude information behind. The unit vector has no units (e.g., the unit vector of a position vector with units of meters has no units itself; the units are part of the magnitude).
+
+By definition, any vector can be written as the product of its magnitude and its unit vector: $\overrightarrow{r} = \left| \overrightarrow{r} \right|\ \widehat{r}.$
+
+Mathematically, we can compute the unit vector by dividing each component by the magnitude $\left| \overrightarrow{r} \right| = \sqrt{r_{x}^{2} + r_{y}^{2} + r_{z}^{2}}$ of the full vector:
 
 $$
-\overset{\rightarrow}{r} = r_{x}\widehat{x} + r_{y}\widehat{y} + r_{z}\widehat{z}
+\widehat{r} = \frac{\overrightarrow{r}}{\left| \overrightarrow{r} \right|} = \frac{1}{\left| \overrightarrow{r} \right|}\left\langle r_{x},r_{y},r_{z} \right\rangle = \left\langle \ \frac{r_{x}}{\left| \overrightarrow{r} \right|},\ \frac{r_{y}}{\left| \overrightarrow{r} \right|},\ \frac{r_{z}}{\left| \overrightarrow{r} \right|}\  \right\rangle
 $$
 
-$$
-\overset{\rightarrow}{r} = r_{x}\widehat{i} + r_{y}\widehat{j} + r_{z}\widehat{k}
-$$
+The unit vectors associated with coordinate axes are sometimes given special symbols, so you may see $\left( \widehat{x},\widehat{y},\widehat{z} \right)$, $\left( \widehat{\imath},\widehat{\jmath},\widehat{k} \right)$, or $\left( {\widehat{e}}_{1},{\widehat{e}}_{2},{\widehat{e}}_{3} \right).$ All of these forms mean the same thing: the unit vectors pointing along the positive $x,y,$ and $z$ axes.
+
+## Adding and Subtracting Vectors
+
+Vector addition and subtraction can be done mathematically or graphically. Mathematically, vector addition and subtraction work component by component:
 
 $$
-\overset{\rightarrow}{r} = r_{x}{\widehat{e}}_{1} + r_{y}{\widehat{e}}_{2} + r_{z}{\widehat{e}}_{3}
-$$
-
-These unit vectors point along usual [Cartesian coordinate directions](https://en.wikipedia.org/wiki/Cartesian_coordinate_system).
-
-### Determining Vector Components in Two Dimensions
-
-<img src="./media/rId26.png" style="width:2.60417in;height:2.72917in" alt="[ALT TEXT NEEDED: figure-03.png -- describe this figure for screen readers]" />
-
-2D vector decomposition into components
-
-Two dimensional vectors are easy to sketch, so often we will use them when describing different physical systems and problems. For these vectors, it is often useful to define an angle ($\theta$) between the vector and one of the coordinate directions (see the figure to the right). The typical relationship between the x and y components of a 2D vector and its magnitude and this angle (when defined from the positive x-axis) is:
-
-$$
-r_{x} = |\overset{\rightarrow}{r}|\cos\theta
+\overrightarrow{a} + \overrightarrow{b} = \left\langle a_{x},a_{y},a_{z} \right\rangle + \left\langle b_{x},b_{y},b_{z} \right\rangle = \left\langle a_{x} + b_{x},a_{y} + b_{y},a_{z} + b_{z} \right\rangle
 $$
 
 $$
-r_{y} = |\overset{\rightarrow}{r}|\sin\theta
+\overrightarrow{a} - \overrightarrow{b} = \left\langle a_{x},a_{y},a_{z} \right\rangle - \left\langle b_{x},b_{y},b_{z} \right\rangle = \left\langle a_{x} - b_{x},a_{y} - b_{y},a_{z} - b_{z} \right\rangle
 $$
 
-*The above equations only work when the vectors are decomposed with along the x and y axis as defined in the figure to the right.* Oftentimes, an angle that is given or derived cannot make use of the simple decomposition formulae above. The geometric properties of the problem will dictate which trigonometric functions are used.
+(You can think of any vector equation as representing multiple copies of the same equation, one for each component.)
+
+Graphically, vector addition and subtraction use the “tip-to-tail” method:
+
+**Vector addition**:  You can think of vector addition as a series of steps taken in sequence.  Graphically, place the starting point (the tail) of the second vector at the end (the tip) of the first vector. The vector that points from the start (tail) of the first to the end (tip) of the second is the sum, or “resultant,” vector. The image below demonstrates this for two vectors, $\overrightarrow{a}$ and $\overrightarrow{b}$.
+
+<img src="./media/image4.png" style="width:2.46897in;height:2.3581in" alt="Diagram illustrating vector addition with two vectors labeled a (blue) and b (red). The solution shows the resultant vector c (green) as the sum of vectors a and b, obtained by placing the start of b at the end of a." />
+
+**Vector subtraction**:  Subtraction is like addition, but you reverse the direction of the second vector (multiplying by -1 reverses the direction of a vector).  Draw the vector that points directly opposite of the second vector. Place the start (tail) of this reversed second vector at the end (tip) of the first vector. The vector that points from the tail of the first to the tip of the reversed second is the difference vector. The image below demonstrates this for two vectors, $\overrightarrow{a}$ and $\overrightarrow{b}$.
+
+<img src="./media/image5.png" style="width:2.34375in;height:2.01857in" alt="Diagram illustrating vector subtraction with vectors a and b represented by blue and red arrows, respectively. It shows the solution by first reversing vector b to negative b, and then adding it to vector a, resulting in vector c depicted by a green arrow." />
+
+
+# Determining Vector Components in Two Dimensions
+
+Two-dimensional vectors are easy to sketch, so often we will use them when describing different physical systems and problems. For these vectors, it is often useful to define an angle (θ) between the vector and one of the coordinate directions (see the figure to the right). The typical relationship between the x and y components of a 2D vector and its magnitude and this angle (<u>*when defined* *counter-clockwise from the positive x-axis*</u>) is
+
+$$
+r_{x} = \left| \overrightarrow{r} \right|\cos\theta
+$$
+
+$$
+r_{y} = \left| \overrightarrow{r} \right|\sin\theta
+$$
+
+<img src="./media/image6.png" style="width:1.5375in;height:1.90972in" alt="Diagram showing a two-dimensional vector r represented by its components along x and y axes, labeled as rx î and ry ĵ in blue. The angle θ between vector r and the x-axis is marked, illustrating vector decomposition into horizontal and vertical components." />*The above equations only work when the vectors are decomposed along the x and y axes and **the angle is defined as in the figure*** *at right*.  Often, an angle that is given or derived is defined differently, and then you cannot make use of the simple decomposition formulae above but need to work out the trigonometric relationships from scratch (using "sohcahtoa").  
 
 {{< youtube WwxevEMyxFk >}}
 
-### Adding & Subtracting Vectors
+# Example Problems
 
-Vector addition and subtraction can be done mathematically and graphically. Mathematically, vector addition and subtraction is done component by component like this:
+[Calculating a unit vector](/examples/unitvector/)
 
-$$
-\overset{\rightarrow}{a} + \overset{\rightarrow}{b} = \langle a_{x},a_{y},a_{z}\rangle + \langle b_{x},b_{y},b_{z}\rangle = \langle a_{x} + b_{x},a_{y} + b_{y},a_{z} + b_{z}\rangle
-$$
+[Determining vector components](/examples/vectordecomposition/)
 
-$$
-\overset{\rightarrow}{a} - \overset{\rightarrow}{b} = \langle a_{x},a_{y},a_{z}\rangle - \langle b_{x},b_{y},b_{z}\rangle = \langle a_{x} - b_{x},a_{y} - b_{y},a_{z} - b_{z}\rangle
-$$
+# Vector Simulation
 
-<img src="./media/rId35.png" style="width:2.60417in;height:3.23958in" alt="[ALT TEXT NEEDED: figure-04.png -- describe this figure for screen readers]" /> Graphically, vector addition and subtraction use the “tip-to-tail” method.
-
-**Vector addition** For addition, place the tail of the second vector at the tip of the first vector. The vector that points from the tail of the first to the tip of the second is the sum or the “resultant” vector. The image to the right demonstrates this for two vectors, $\overset{\rightarrow}{a}$ and $\overset{\rightarrow}{b}$.
-
-<img src="./media/rId38.png" style="width:2.34375in;height:2.91667in" alt="[ALT TEXT NEEDED: figure-05.png -- describe this figure for screen readers]" /> **Vector subtraction** For subtraction, draw the vector that points directly opposite of the second vector. Place the tail of this reversed second vector at the tip of the first vector. The vector that points from the tail of the first to the tip of the reversed second is the difference vector. The image to the right demonstrates this for two vectors, $\overset{\rightarrow}{a}$ and $\overset{\rightarrow}{b}$.
-
-## Examples
-
-- [Determining vector components](/examples/vectordecomposition/)
-- [Calculating a unit vector](/examples/unitvector/)
-
-## Vector Simulation
-
-Here's simulation that let's you play with vectors in 2D.[<sup>1)</sup>](/notes/week-01-modeling-motion-no-net-force/scalars_and_vectors/#fn__1) If the embedded simulation doesn't work, you can find it [on the PhET website](http://phet.colorado.edu/sims/vector-addition/vector-addition_en.html).
-
-{{< simulation src="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_all.html" title="PhET Vector Simulation" >}}
-
-------------------------------------------------------------------------
-
-[<sup>1)</sup>](/notes/week-01-modeling-motion-no-net-force/scalars_and_vectors/#fnt__1)
-
-Credit the [PhET Team](http://phet.colorado.edu/) at the University of Colorado for the simulation.
+Here is a [link](https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_all.html) to an online simulation that lets you play with vectors in 2D. Credit: PhET team, University of Colorado.

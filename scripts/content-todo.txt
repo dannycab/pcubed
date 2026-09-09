@@ -71,7 +71,6 @@ week-07-energy-transfer/work: 2 image(s) missing alt text
 week-01-modeling-motion-no-net-force/relative_motion: 1 image(s) missing alt text
 week-01-modeling-motion-no-net-force/displacement_and_velocity: 1 image(s) missing alt text
 week-12-14-collisions-rotational-motion/ang_momentum: 4 image(s) missing alt text
-week-01-modeling-motion-no-net-force/scalars_and_vectors: 5 image(s) missing alt text
 week-04-05-springs-contact-interactions/friction: 3 image(s) missing alt text
 week-06-solids-curved-motion/center_of_mass: 1 image(s) missing alt text
 week-08-potential-energy-applications/newton_grav_pe: 1 image(s) missing alt text
@@ -84,3 +83,4 @@ week-02-modeling-motion-net-force/momentum_principle: 1 image(s) missing alt tex
 week-08-potential-energy-applications/grav_pe_graphs: 5 image(s) missing alt text
 week-11-multi-particle-energy/pp_vs_real: 2 image(s) missing alt text
 week-07-energy-transfer/work_by_nc_forces: 1 image(s) missing alt text
+week-01-modeling-motion-no-net-force/scalars_and_vectors: 3 heading(s) demoted to plain text (empty, or over 100 chars -- likely a paragraph left in a Heading style in Word); double check nothing real got flattened
