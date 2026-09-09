@@ -12,11 +12,11 @@ However, there are several interactions whose strength and direction depend on t
 
 The simulation below shows the interaction of a mass on a spring.
 
-Interactive simulation: Mass on a Spring — <https://glowscript.org/#/user/danny/folder/Shared/program/HorizontalSpring>
+{{< simulation src="https://glowscript.org/#/user/danny/folder/Shared/program/HorizontalSpring" title="Mass on a Spring" >}}
 
 If we plotted the location of this mass (relative to its average location) as a function of time for 10 seconds, we might observe the following:
 
-Interactive simulation: Plot of spring-mass system — <https://glowscript.org/#/user/danny/folder/Shared/program/SpringMassGraphs>
+{{< simulation src="https://glowscript.org/#/user/danny/folder/Shared/program/SpringMassGraphs" title="Plot of spring-mass system" >}}
 
 You might have seen this kind of plot before. It's a [sinusoidal function](http://en.wikipedia.org/wiki/Sine_wave), in this case it's a sine curve. So the formula that describes this function could be something like:
 
@@ -103,4 +103,4 @@ For the spring force (as well as other non-constant forces), you will use “out
 
 For [constant force motion](/notes/week-02-modeling-motion-net-force/constantf/), the time step ($\Delta t$) was not important because the average velocity (${\overset{\rightarrow}{v}}_{avg} = \frac{\Delta\overset{\rightarrow}{r}}{\Delta t}$) and the *arithmetic* average velocity (${\overset{\rightarrow}{v}}_{avg} = \frac{{\overset{\rightarrow}{v}}_{f} + {\overset{\rightarrow}{v}}_{i}}{2}$) were identical. When motion a system results from non-constant interactions, this is no longer true. Consider the figure below, which show predictions of the motion of a spring-mass system using different time steps. Here, you can clearly see that the smaller the time step, the more accurate the plot becomes (i.e., closer to the sinusoidal solution we expect).
 
-Interactive simulation: Plot of spring-mass system for different time steps — <https://msuperl.org/interactive/mechanics/sinusoidal_position_vs_time_coarse_fine.html>
+{{< simulation src="https://msuperl.org/interactive/mechanics/sinusoidal_position_vs_time_coarse_fine.html" title="Plot of spring-mass system for different time steps" >}}

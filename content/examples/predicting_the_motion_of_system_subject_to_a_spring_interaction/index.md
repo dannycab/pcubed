@@ -1,6 +1,6 @@
 ---
 title: 'Example: Predicting the motion of a system that is subject to a spring interaction/Predicting the final location of an object moving under a non-constant force'
-weight: 35
+weight: 36
 ---
 
 A spring has a relaxed length of (0.2m) and it has a spring constant of 8 N/m. Attached to the top of the spring is a block of mass (.06)kg. A force is exerted on the block to compress the spring to a total length of (0.1m). Predict the y position for the block after 0.1 second and 0.2 seconds.

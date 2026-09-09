@@ -1,6 +1,6 @@
 ---
 title: 'Example: The Jumper'
-weight: 44
+weight: 45
 ---
 
 After earning an 'A' in PHY 183 you land a job with ACME Bungee Jump company. They need to know what spring stiffness k_S to make the cords so that a jumper of mass 200kg will only fall 30m. The standard length of an un-stretched cord is just 10m.

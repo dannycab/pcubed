@@ -1,6 +1,6 @@
 ---
 title: 'Example: Statics with Torque'
-weight: 43
+weight: 44
 ---
 
 <img src="./media/rId9.jpg" style="width:5.83333in;height:3.70614in" alt="[ALT TEXT NEEDED: figure-01.jpg -- describe this figure for screen readers]" /> Find the force a person would have to apply support their friend doing a keg stand

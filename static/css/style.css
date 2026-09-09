@@ -123,6 +123,18 @@ section.week { margin-bottom: 2rem; }
 section.week h2 { margin-bottom: 0.5rem; }
 section.week ol { padding-left: 1.25rem; }
 
+.simulation-embed {
+  margin: 1rem 0;
+}
+.simulation-embed iframe {
+  border: 1px solid var(--border);
+}
+.simulation-fallback {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem 0;

@@ -21,7 +21,7 @@ CONTENT_DIR = ROOT / "content" / "examples"
 SLUGS = sorted(
     p.stem.removeprefix("183_notes_examples_") for p in DOCX_DIR.glob("183_notes_examples_*.docx")
 )
-assert len(SLUGS) == 52
+assert len(SLUGS) == 53
 
 EXAMPLES_LINK_MAP = {slug: f"/examples/{slug}/" for slug in SLUGS}
 NOTES_LINK_MAP = migrate.LINK_MAP
@@ -93,6 +93,7 @@ def process_page(slug: str):
     body = migrate.demote_headings(body)
     body = migrate.convert_math(body)
     body = migrate.convert_youtube(body)
+    body = migrate.convert_simulations(body)
     body = rewrite_links(body)
     return bundle_dir, title, textbook_ref, body
 

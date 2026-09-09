@@ -1,6 +1,6 @@
 ---
 title: 'Example: Predicting the location of an object undergoing constant force motion'
-weight: 34
+weight: 35
 ---
 
 The fan cart in the video below is observed to [accelerate](/notes/week-02-modeling-motion-net-force/acceleration/) uniformly to the right. The air exerts a [constant force](/notes/week-02-modeling-motion-net-force/constantf/) on the blades that is around $0.45N$. Determine the how far the fan cart has traveled after $2.2s$ if the cart starts from rest.

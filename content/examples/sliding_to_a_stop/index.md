@@ -1,6 +1,6 @@
 ---
 title: 'Example: Sliding to a Stop'
-weight: 40
+weight: 41
 ---
 
 You take a 3 kg metal block and slide it along the floor, where the coefficient of friction is only 0.4. You release the block with an initial velocity of $\langle 6,0,0\rangle m/s$. How long will it take for the block to come to a stop? How far does the block move?

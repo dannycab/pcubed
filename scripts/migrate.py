@@ -113,6 +113,7 @@ YOUTUBE_BLOCK_RE = re.compile(
 )
 MATH_BLOCK_RE = re.compile(r"^``` math\n(.*?)\n```$", re.DOTALL | re.MULTILINE)
 INLINE_MATH_RE = re.compile(r"\$`(.+?)`\$")
+SIMULATION_LINE_RE = re.compile(r"^Interactive simulation: (.+?) — <(\S+)>$", re.MULTILINE)
 
 
 def convert_docx(slug: str, bundle_dir: Path):
@@ -194,6 +195,15 @@ def convert_youtube(body: str) -> str:
     return YOUTUBE_BLOCK_RE.sub(lambda m: f"{{{{< youtube {m.group(1)} >}}}}\n", body)
 
 
+def convert_simulations(body: str) -> str:
+    def sub(m):
+        title = m.group(1).replace('"', '\\"')
+        url = m.group(2)
+        return f'{{{{< simulation src="{url}" title="{title}" >}}}}'
+
+    return SIMULATION_LINE_RE.sub(sub, body)
+
+
 def rewrite_links(body: str) -> str:
     def wiki_sub(m):
         slug = m.group(1)
@@ -229,6 +239,7 @@ def process_page(slug: str, week_dir: str, weight: int):
     body = demote_headings(body)
     body = convert_math(body)
     body = convert_youtube(body)
+    body = convert_simulations(body)
     body = rewrite_links(body)
 
     fm_lines = ["---", f"title: {yaml_single_quote(title)}", f"weight: {weight}"]

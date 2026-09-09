@@ -1,6 +1,6 @@
 ---
 title: 'Example: Rotational Kinetic Energy and Work'
-weight: 37
+weight: 38
 ---
 
 In the figure which is in the representations section you observe that a wheel is mounted on a stationary axel, which is nearly frictionless so that the wheel turns freely. The wheel has an inner ring with mass 5 kg and radius 10 cm and an outer ring with mass 2 kg and radius 25 cm; the spokes have negligible mass. A string with negligible mass is wrapped around the outer ring and you pull on it, increasing the rotational speed of the wheel. During the time that the wheel's rotation changes from 4 revolutions per second to 7 revolutions per second, how much work do you do?

@@ -1,6 +1,6 @@
 ---
 title: 'Example: Statics'
-weight: 42
+weight: 43
 ---
 
 <img src="./media/rId9.jpg" style="width:5.83333in;height:4.17728in" alt="[ALT TEXT NEEDED: figure-01.jpg -- describe this figure for screen readers]" /> If a sign were hung like the one above, what would be the tension forces acting on both of the ropes?

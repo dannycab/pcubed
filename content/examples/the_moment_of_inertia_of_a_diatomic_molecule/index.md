@@ -1,6 +1,6 @@
 ---
 title: 'Example: The Moment of Inertia of a Diatomic Molecule'
-weight: 46
+weight: 47
 ---
 
 What is the moment of inertia of a diatomic nitrogen molecule $N_{2}$ around its center of mass. The mass of a nitrogen atom is $2.3$ x $10^{- 26}$ kg and the average distance between nuclei is $1.5$ x $10^{- 10}$ m. Use the definition of moment of inertia carefully.

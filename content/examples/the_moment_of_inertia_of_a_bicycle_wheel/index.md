@@ -1,6 +1,6 @@
 ---
 title: 'Example: The Moment of Inertia of a Bicycle Wheel'
-weight: 45
+weight: 46
 ---
 
 A bicycle wheel has almost all its mass M located in the outer rim at radius R. What is the moment of inertia of the bicycle wheel about its center of mass?

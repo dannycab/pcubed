@@ -1,6 +1,6 @@
 ---
 title: 'Example: Vector addition with a bear chase'
-weight: 50
+weight: 51
 ---
 
 ## Video

@@ -92,7 +92,7 @@ In force vs displacement graphs, the limitations are more strict. Because the wo
 
 For example, in the figure below, this might represent the net force acting on a cart in the x-direction. Sometimes, that force is in the direction of the displacement (positive work represented by the blue shaded area above the y=0 line). At other times that force is opposite the direction of the displacement (negative work represented by the red shaded area below the y=0 line).
 
-Interactive simulation: Force vs Displacement — <https://msuperl.org/interactive/mechanics/net_force_vs_position_discrete.html>
+{{< simulation src="https://msuperl.org/interactive/mechanics/net_force_vs_position_discrete.html" title="Force vs Displacement" >}}
 
 ## Work by the Local Gravitational Force
 

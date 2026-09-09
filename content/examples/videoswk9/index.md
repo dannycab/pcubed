@@ -1,6 +1,6 @@
 ---
 title: 'Example: Spring Potential, Work, and Heat Exchange'
-weight: 41
+weight: 42
 ---
 
 ## Video

@@ -1,6 +1,6 @@
 ---
 title: 'Example: Sledding'
-weight: 39
+weight: 40
 ---
 
 A little girl is riding her sled on a hill. If she starts a distance d up the hill, which makes an angle θ with the horizontal, how far will she travel along the flat snowy ground?

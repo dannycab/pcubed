@@ -1,6 +1,6 @@
 ---
 title: 'Example: Walking in a Boat'
-weight: 51
+weight: 52
 ---
 
 A person is standing in a boat that is a length 2D + L (see diagram). If they walk a distance L, how far is the boat from the dock?

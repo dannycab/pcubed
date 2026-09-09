@@ -1,6 +1,6 @@
 ---
 title: 'Example: Rotational Angular Momentum of a Bicycle Wheel'
-weight: 36
+weight: 37
 ---
 
 A bicycle wheel has a mass of 0.8kg and a radius of 32cm. If the wheel rotates in the xz plane, spinning clockwise when viewed from the +y axis, and making one full revolution in 0.75 seconds, what is the rotational angular momentum of the wheel?

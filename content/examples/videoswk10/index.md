@@ -1,6 +1,6 @@
 ---
 title: 'Example: Rotational Kinetic Energy when adding objects to the system'
-weight: 38
+weight: 39
 ---
 
 ## Video

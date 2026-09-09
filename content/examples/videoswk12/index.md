@@ -1,6 +1,6 @@
 ---
 title: 'Example: Torque of a wrench'
-weight: 47
+weight: 48
 ---
 
 ## Video

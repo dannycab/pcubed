@@ -38,13 +38,13 @@ In some situations, it is easier to empirically measure force versus time graphs
 
 Below is a force vs time graph where the “area under the curve” has been highlighted. In this example, we are only looking at the component of the net force in the $x$-direction. Such graphs can be produced for each component of the net force, but let's say that for this system, there was a non-zero component of the net force only in the $x$-direction.
 
-Interactive simulation: Impulse Graph — <https://msuperl.org/interactive/mechanics/net_force_vs_time_discrete.html>
+{{< simulation src="https://msuperl.org/interactive/mechanics/net_force_vs_time_discrete.html" title="Impulse Graph" >}}
 
 For the above figure, the momentum change over the complete time interval can be determined in a straightforward way due to the simple geometric shapes produced. Area above the zero line are positive momentum changes, and area below are negative. By adding up the “area under the curve” in this way, we obtain a momentum change of 7 $N\mspace{6mu} s$.
 
 The figure below shows the force vs time graph for another system. In this case, the graph has a smooth form, which doesn't appear to be analytic. The “area under the curve” for this graph could be analyzed computationally, by [taking small steps (i.e., Riemann Sum)](http://en.wikipedia.org/wiki/Riemann_sum), and the change in momentum could be determined.
 
-Interactive simulation: Impulse Graph — <https://msuperl.org/interactive/mechanics/net_force_vs_time_smooth.html>
+{{< simulation src="https://msuperl.org/interactive/mechanics/net_force_vs_time_smooth.html" title="Impulse Graph" >}}
 
 ------------------------------------------------------------------------
 
