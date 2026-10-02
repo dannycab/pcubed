@@ -24,7 +24,7 @@ Notice the forces are positioned at the location where they act. For each of the
 In this case, you know you want the system to be in static equilibrium, so you can add all the forces up in the respective directions (knowing the net force must be zero) to see if this helps you find $m_{1}$ (given you know $m_{2}$ and $m_{p}$).
 
 $$
-{\overset{\rightarrow}{F}}_{net} = 0 \rightarrow F_{net,x} = 0\mspace{6mu} and\mspace{6mu} F_{net,y} = 0
+{\overset{\rightarrow}{F}}_{net} = 0 \rightarrow F_{net,x} = 0\mkern{6mu} and\mkern{6mu} F_{net,y} = 0
 $$
 
 In this case, there are no forces in the x-direction, so the condition on the first coordinate direction is automatically satisfied. But in the y-direction,
