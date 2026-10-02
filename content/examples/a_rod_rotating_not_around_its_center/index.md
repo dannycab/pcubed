@@ -53,15 +53,15 @@ $K_{tot} = \frac{1}{2}(Mr_{CM}^{2} + I_{CM})\omega^{2}$​
 
 Substitute in $(\frac{1}{12})ML^{2}$ for L as we are dealing with the inertia for a thin rod.
 
-$K_{tot} = \frac{1}{2}(Mr_{CM}^{2}\mspace{6mu} + \mspace{6mu}\frac{1}{12}ML^{2})\omega^{2}$​
+$K_{tot} = \frac{1}{2}(Mr_{CM}^{2}\mkern{6mu} + \mkern{6mu}\frac{1}{12}ML^{2})\omega^{2}$​
 
 Gather the M's out of both equations so that your equation now looks like:
 
-$K_{tot} = \frac{1}{2}M(r_{CM}^{2}\mspace{6mu} + \mspace{6mu}\frac{1}{12}L^{2})\omega^{2}$​
+$K_{tot} = \frac{1}{2}M(r_{CM}^{2}\mkern{6mu} + \mkern{6mu}\frac{1}{12}L^{2})\omega^{2}$​
 
 Insert values for the corresponding variables.
 
-$K_{tot} = \frac{1}{2}(.140\mspace{6mu} kg)((.1m^{2}) + \frac{1}{12}(.6m)^{2})(25\mspace{6mu} radians/s)^{2}$​
+$K_{tot} = \frac{1}{2}(.140\mkern{6mu} kg)((.1m^{2}) + \frac{1}{12}(.6m)^{2})(25\mkern{6mu} radians/s)^{2}$​
 
 Solve for $K_{tot}$
 

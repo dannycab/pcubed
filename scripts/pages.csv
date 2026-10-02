@@ -1,0 +1,11 @@
+# Which page each DOCX updates. Used by scripts/docx_to_hugo.py.
+#
+#   docx: the DOCX filename exactly as colleagues send it (folder doesn't matter, case doesn't matter)
+#   page: the page's folder under content/
+#
+# To add a page: add a line here. If the folder doesn't exist yet, the script
+# creates it as a new page at the end of its week. Lines starting with # are ignored.
+docx,page
+Week01_scalars_and_vectors.docx,notes/week-01-modeling-motion-no-net-force/scalars_and_vectors
+Week01_modeling_with_vpython.docx,notes/week-01-modeling-motion-no-net-force/modeling_with_vpython
+Week04_impuse_graphs.docx,notes/week-04-05-springs-contact-interactions/impulsegraphs

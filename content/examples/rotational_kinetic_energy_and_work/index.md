@@ -71,9 +71,9 @@ $I = (5kg)(.1m)^{2}$ + $(2kg)(.25m)^{2}$ = $(0.050 + 0.125)kg \cdot m^{2} = 0.17
 
 We need to convert revolutions per second into radians per second:
 
-$\omega_{i} = (4\frac{rev}{s})(\frac{2\pi\mspace{6mu} radians}{rev}) = 25.1\mspace{6mu} radian\mspace{6mu} s/s$​
+$\omega_{i} = (4\frac{rev}{s})(\frac{2\pi\mkern{6mu} radians}{rev}) = 25.1\mkern{6mu} radian\mkern{6mu} s/s$​
 
-$\omega_{f} = (7\frac{rev}{s})(\frac{2\pi\mspace{6mu} radians}{rev}) = 44.0\mspace{6mu} radian\mspace{6mu} s/s$​
+$\omega_{f} = (7\frac{rev}{s})(\frac{2\pi\mkern{6mu} radians}{rev}) = 44.0\mkern{6mu} radian\mkern{6mu} s/s$​
 
 You, the Earth, and the axle will exert forces on the system. How much work does the Earth do? Zero, because the center of mass of the wheel doesn't move. How much work does the axle do? If there is negligible friction between the axle and the wheel, the axle does no work, because there is no-displacement of the axle's force. Therefore only you do work, and the work that you do is
 

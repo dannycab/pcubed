@@ -99,17 +99,17 @@ Those that are higher up will share more potential energy with the Earth than th
 If we consider a column of such atoms, that extends up some vertical height. The total potential energy associated with this column is given by the sum of the contributions due to each of the atoms,
 
 $$
-U_{tot} = \sum_{i}^{}U_{atom,i} = \sum_{i}^{}m_{atom,i}\mspace{6mu} g\mspace{6mu} y_{atom,i} = g\sum_{i}^{}m_{atom,i}\mspace{6mu} y_{atom,i}
+U_{tot} = \sum_{i}^{}U_{atom,i} = \sum_{i}^{}m_{atom,i}\mkern{6mu} g\mkern{6mu} y_{atom,i} = g\sum_{i}^{}m_{atom,i}\mkern{6mu} y_{atom,i}
 $$
 
 This final sum is related to the [center for mass formula](/notes/week-06-solids-curved-motion/center_of_mass/#the_center_of_mass) in the y-direction,
 
 $$
-y_{cm} = \frac{1}{M_{tot}}\sum_{i}^{}m_{atom,i}\mspace{6mu} y_{atom,i}
+y_{cm} = \frac{1}{M_{tot}}\sum_{i}^{}m_{atom,i}\mkern{6mu} y_{atom,i}
 $$
 
 $$
-M_{tot}y_{cm} = \sum_{i}^{}m_{atom,i}\mspace{6mu} y_{atom,i}
+M_{tot}y_{cm} = \sum_{i}^{}m_{atom,i}\mkern{6mu} y_{atom,i}
 $$
 
 Hence, this sum can be replaced by the product of the total mass of the system and the location of the center of mass,

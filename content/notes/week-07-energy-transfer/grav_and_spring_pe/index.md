@@ -58,7 +58,7 @@ W_{s} = \int_{0}^{s}{\overset{\rightarrow}{F}}_{spring} \cdot d\overset{\rightar
 $$
 
 $$
-W_{s} = \int_{0}^{s}\left( - k_{s}x \right)dx = - k_{s}\int_{0}^{s}x\mspace{6mu} dx = - k_{s}x^{2}|_{0}^{s} = - \frac{1}{2}k_{s}s^{2}
+W_{s} = \int_{0}^{s}\left( - k_{s}x \right)dx = - k_{s}\int_{0}^{s}x\mkern{6mu} dx = - k_{s}x^{2}|_{0}^{s} = - \frac{1}{2}k_{s}s^{2}
 $$
 
 So more generally, the work done by a spring is given by,
