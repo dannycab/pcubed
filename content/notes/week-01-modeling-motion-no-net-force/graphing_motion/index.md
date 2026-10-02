@@ -16,7 +16,7 @@ $$
 
 While the motion of the car, in principle, can occur 3 dimensions, it's not possible to represent all three dimensions and the time variable on a single 2-D graph. So, we have to select a component of the car's position (or velocity) to plot. In this case, let's assume the car moves to the right (i.e., in the +x direction). Perhaps, the plot of the car's position vs time looks like the plot below:
 
-{{< simulation src="https://msuperl.org/interactive/mechanics/CV_position_vs_time.html" title="Constant velocity position vs. time" >}}
+{{< simulation src="https://demos.msuperl.org/interactive/mechanics/CV_position_vs_time.html" title="Constant velocity position vs. time" >}}
 
 Here, you can see that the position of the car changes linearly with time, as we would predict for a car moving at constant velocity. From this graph, you can also determine the car's initial position (12 m), final position (132 m), and average velocity (12 m/s).
 
@@ -46,13 +46,13 @@ $$
 
 For position versus time graphs where the position does not change linearly, you might need to determine (by taking the derivative) or approximate (by measuring very close points) the instantaneous velocity to model or explain the motion. For example in the graph below, a car moves to the right under [constant force](/notes/week-02-modeling-motion-net-force/constantf/). Here, the slope (and thus, the velocity) changes at a constant rate and the average and instantaneous velocities are not the same.
 
-{{< simulation src="https://msuperl.org/interactive/mechanics/CA_position_vs_time.html" title="Constant force position vs. time" >}}
+{{< simulation src="https://demos.msuperl.org/interactive/mechanics/CA_position_vs_time.html" title="Constant force position vs. time" >}}
 
 ### The Area Under The Velocity vs Time Graph is the Displacement
 
 Sometimes, you will want to graph the velocity of the object as a function of time. Again, you have to graph a single component at a time. So, let's go back to the example of a car moving with constant velocity. In that case, we'd expect the velocity vs time graph to be a flat, horizontal line taking on the value of the slope. In the graph below, we find that is the case.
 
-{{< simulation src="https://msuperl.org/interactive/mechanics/CV_velocity_vs_time.html" title="Constant velocity, velocity vs. time" >}}
+{{< simulation src="https://demos.msuperl.org/interactive/mechanics/CV_velocity_vs_time.html" title="Constant velocity, velocity vs. time" >}}
 
 In addition, we can use the position update formula to show that the x-displacement ($\Delta x$) is the area under this curve:
 
@@ -64,6 +64,6 @@ This is precisely how one defines a [Riemann sum](http://en.wikipedia.org/wiki/R
 
 For situations where the object does no move with constant velocity, the area under the velocity vs time graph is still the displacement, it just might be slightly more complicated to calculate. For example, the graph below is the velocity vs time graph for when the car moves under a [constant force](/notes/week-02-modeling-motion-net-force/constantf/).
 
-{{< simulation src="https://msuperl.org/interactive/mechanics/CA_velocity_vs_time_area_fill.html" title="Constant force (velocity vs time)" >}}
+{{< simulation src="https://demos.msuperl.org/interactive/mechanics/CA_velocity_vs_time_area_fill.html" title="Constant force (velocity vs time)" >}}
 
 The triangular area (highlighted in light blue) under the curve is the displacement of the car in the x-direction. Notice it's positive because it's above the y-axis. “Area under the curve” actually refers the the area between the function and y=0. If the plot is below the y=0, then that part of the area is negative.
