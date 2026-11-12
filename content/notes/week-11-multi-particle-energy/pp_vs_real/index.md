@@ -120,9 +120,11 @@ $$
 \Delta K_{rot} = F_{T}\, L - F_{T}\, d = F_{T}(L - d)
 $$
 
-This might all seem like a mathematical trick. But this is actually what we observe. The experiment can be set up and conducted as the video below shows.[<sup>1)</sup>](/notes/week-11-multi-particle-energy/pp_vs_real/#fn__1)
+This might all seem like a mathematical trick. But this is actually what we observe. The experiment can be set up and conducted as the video below shows.
 
-[654x480](https://www.msuperl.org/wikis/pcubed/lib/exe/fetch.php?cache=&media=183_notes:twopucksdemo.mp4)
+{{< youtube iMdLO1P_epg >}}
+
+*This video originally appeared on the [Matter and Interactions instructor resource website](https://matterandinteractions.org/videos-of-lecture-demos/).*
 
 ### Examples
 
@@ -130,6 +132,3 @@ This might all seem like a mathematical trick. But this is actually what we obse
 
 ------------------------------------------------------------------------
 
-[<sup>1)</sup>](/notes/week-11-multi-particle-energy/pp_vs_real/#fnt__1)
-
-This video originally appeared on the [Matter and Interactions instructor resource website](http://www.matterandinteractions.org/Content/Materials/materials.html).
